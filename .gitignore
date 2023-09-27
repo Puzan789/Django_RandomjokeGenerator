@@ -1,0 +1,11 @@
+# Exclude the virtual environment directory
+venv/
+
+# Exclude any generated files or folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.cache/
+.pytest_cache/
+.vscode/

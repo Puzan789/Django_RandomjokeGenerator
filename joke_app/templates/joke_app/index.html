@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   
+</style>
+<body>
+    <h1 style="text-align: center;">Random joke generator</h1>
+    
+    <p><strong>Category:</strong> {{ joke_data.category }}</p>
+    <p><strong>Type:</strong> {{ joke_data.type }}</p>
+    <p><strong>Setup:</strong> {{ joke_data.setup }}</p>
+    <p><strong>Delivery:</strong> {{ joke_data.delivery }}</p>
+   <a href="{% url 'rand' %}"> Get another fucking joke</a>
+</body>
+</html>
